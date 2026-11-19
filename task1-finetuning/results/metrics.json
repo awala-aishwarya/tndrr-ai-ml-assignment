@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "dataset": "dair-ai/emotion",
+  "test_accuracy": 0.9265,
+  "test_macro_f1": 0.8841404536010925,
+  "baseline_accuracy": 0.331,
+  "baseline_macro_f1": 0.11404,
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.1,
+    "target_modules": ["q_proj", "v_proj"],
+    "modules_to_save": ["score"]
+  },
+  "epochs": 2,
+  "learning_rate": 0.0002
+}

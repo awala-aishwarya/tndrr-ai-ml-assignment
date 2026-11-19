@@ -1,0 +1,42 @@
+[
+    {
+        "prompt": "Explain artificial intelligence in simple words.",
+        "answer": "Artificial Intelligence (AI) is a type of technology that allows machines to learn and perform tasks that typically require human intelligence, such as recognizing images or playing chess. AI can be used for a wide range of applications, from self-driving cars to language translation to personalized medicine. It's a rapidly evolving field with many potential uses and applications, but it has the potential to revolutionize industries and improve our lives in countless ways."
+    },
+    {
+        "prompt": "What is machine learning? Give three real-world examples.",
+        "answer": "Machine learning is a type of artificial intelligence (AI) that enables computers to learn from data and improve their performance over time without being explicitly programmed. It involves the use of algorithms and statistical models to enable machines to make decisions or predictions based on patterns in large amounts of data.\n\nHere are three real-world examples of machine learning:\n\n1. Image Recognition: One of the most common applications of machine learning is image recognition. For example, Google's facial recognition system uses deep learning techniques to identify faces in images"
+    },
+    {
+        "prompt": "Explain the difference between supervised and unsupervised learning.",
+        "answer": "Supervised Learning and Unsupervised Learning are two types of machine learning algorithms that differ in their approach to data processing.\n\nIn Supervised Learning:\n- The algorithm is trained on labeled data.\n- It learns from examples where each example has a corresponding label (target).\n- The goal is to predict or classify new instances based on the learned model's predictions.\n- Examples: Linear regression, decision trees, random forests, gradient boosting\n\nUnsupervised Learning:\n- The algorithm is trained on unlabeled data"
+    },
+    {
+        "prompt": "Write a Python function to check whether a number is prime.",
+        "answer": "Certainly! Below is a Python function that checks if a given integer `n` is prime:\n\n```python\ndef is_prime(n):\n    \"\"\"\n    Check if the input integer n is prime.\n    \n    Args:\n        n (int): The integer to check for primality.\n        \n    Returns:\n        bool: True if n is prime, False otherwise.\n    \"\"\"\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5)"
+    },
+    {
+        "prompt": "What is the difference between a Python list and a tuple?",
+        "answer": "A Python list is an ordered collection of elements that can be accessed using square brackets [ ] or parentheses (). Lists are similar to arrays in other programming languages like C++, but they have some key differences:\n\n1. Size: A list is a mutable data structure (you can add, remove, modify elements), while tuples are immutable (you cannot change their contents).\n\n2. Indexing: In lists, you access elements by index (e.g., list[0] accesses the first element). In tuples"
+    },
+    {
+        "prompt": "A shop gives a 20% discount on an item priced at 1500 rupees. What is the final price?",
+        "answer": "To calculate the final price after applying a 20% discount on an item priced at 1500 rupees, follow these steps:\n\n1. Calculate the amount of the discount:\n   Discount = Price × (Discount Rate / 100)\n   Discount = 1500 × (20 / 100)\n   Discount = 300\n\n2. Subtract the discount from the original price to get the final price:\n   Final Price = Original Price"
+    },
+    {
+        "prompt": "Explain overfitting in machine learning and how to prevent it.",
+        "answer": "Overfitting is a common issue in machine learning that occurs when a model is too complex or overly sensitive to noise or outliers in the training data. It can lead to poor generalization performance on unseen data, as well as high variance (or sensitivity) in predictions.\n\nThe key factors contributing to overfitting include:\n\n1. **High Dimensionality**: Large datasets with many features can make it difficult for the model to learn meaningful patterns.\n2. **Random Initialization**: Randomly initialized weights can cause"
+    },
+    {
+        "prompt": "What is the purpose of an API in software development?",
+        "answer": "The purpose of an API (Application Programming Interface) in software development is to provide developers with a set of tools and services that allow them to build applications on top of another application or platform. Here are some key purposes of APIs:\n\n1. **Ease of Use**: APIs make it easier for developers to integrate third-party applications into their own projects.\n\n2. **Modularity**: They enable developers to create reusable code snippets, which can be used across different projects.\n\n3. **Scalability**: APIs"
+    },
+    {
+        "prompt": "Summarize the importance of data preprocessing in machine learning.",
+        "answer": "Data preprocessing is an essential step in machine learning that involves cleaning and transforming raw data into a format suitable for analysis and modeling. The importance of data preprocessing lies in several key aspects:\n\n1. Data Cleaning: This includes removing errors, inconsistencies, and duplicates from the dataset. It ensures that there are no missing values or irrelevant information that could affect the model's performance.\n\n2. Feature Selection: This step focuses on selecting relevant features that contribute to the prediction task. By selecting only the most informative features,"
+    },
+    {
+        "prompt": "Explain how a neural network learns from training data.",
+        "answer": "A neural network is trained through a process called backpropagation, which involves the following steps:\n\n1. Initialization: The weights of the network are initialized randomly with small values (e.g., 0.01).\n\n2. Forward propagation: The network passes each input to its corresponding output layer and calculates the error between the predicted output and the actual target.\n\n3. Backward propagation: The error is then propagated backwards through the network until it reaches the input layer, where it is summed up and"
+    }
+]

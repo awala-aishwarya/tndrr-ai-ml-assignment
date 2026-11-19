@@ -1,0 +1,78 @@
+
+[
+  {
+    "id": 1,
+    "question": "What are the seven characteristics of trustworthy AI systems?",
+    "expected_page": 17
+  },
+  {
+    "id": 2,
+    "question": "Why must the characteristics of trustworthy AI be balanced according to the context of use?",
+    "expected_page": 17
+  },
+  {
+    "id": 3,
+    "question": "How does the NIST framework define validation of an AI system?",
+    "expected_page": 18
+  },
+  {
+    "id": 4,
+    "question": "What does it mean for an AI system to be secure and resilient?",
+    "expected_page": 20
+  },
+  {
+    "id": 5,
+    "question": "Why does accountability in trustworthy AI depend on transparency?",
+    "expected_page": 20
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between explainability and interpretability?",
+    "expected_page": 21
+  },
+  {
+    "id": 7,
+    "question": "How does the NIST framework describe fairness in AI?",
+    "expected_page": 22
+  },
+  {
+    "id": 8,
+    "question": "How is bias associated with fairness and transparency in AI systems?",
+    "expected_page": 23
+  },
+  {
+    "id": 9,
+    "question": "How can AI system impact assessments help AI actors?",
+    "expected_page": 11
+  },
+  {
+    "id": 10,
+    "question": "Why are poorly understood AI risks difficult to measure?",
+    "expected_page": 10
+  },
+  {
+    "id": 11,
+    "question": "What challenge arises from the lack of reliable metrics for measuring AI risk?",
+    "expected_page": 11
+  },
+  {
+    "id": 12,
+    "question": "What are the four core functions of the NIST AI Risk Management Framework?",
+    "expected_page": 25
+  },
+  {
+    "id": 13,
+    "question": "How should organizations apply the AI RMF functions after establishing GOVERN?",
+    "expected_page": 26
+  },
+  {
+    "id": 14,
+    "question": "What does the NIST framework recommend about defining and documenting human oversight processes?",
+    "expected_page": 32
+  },
+  {
+    "id": 15,
+    "question": "When might an AI system require human oversight or human decision-making?",
+    "expected_page": 45
+  }
+]

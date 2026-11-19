@@ -1,0 +1,42 @@
+[
+    {
+        "prompt": "Explain artificial intelligence in simple words.",
+        "answer": "Artificial Intelligence (AI) is a field of computer science that focuses on creating intelligent machines that can perform tasks that typically require human intelligence, such as learning, problem-solving, decision-making, and understanding language. AI systems use algorithms and statistical models to analyze data and make predictions or decisions based on patterns and relationships within that data.\n\nIn simpler terms, AI involves the development of software programs that can learn from experience, recognize patterns, and respond to inputs in ways that mimic human behavior. This technology has"
+    },
+    {
+        "prompt": "What is machine learning? Give three real-world examples.",
+        "answer": "Machine learning is a type of artificial intelligence that enables computers to learn and improve from data without being explicitly programmed. It involves the development of algorithms that can analyze patterns in large amounts of data and make predictions or decisions based on those patterns.\n\nHere are three real-world examples of how machine learning has been applied:\n\n1. **Customer Service Chatbots**: Companies like Amazon's Alexa and Google Assistant use machine learning to understand natural language queries and respond with appropriate responses. This allows customers to interact with their devices more"
+    },
+    {
+        "prompt": "Explain the difference between supervised and unsupervised learning.",
+        "answer": "Supervised Learning and Unsupervised Learning are two main types of machine learning algorithms used for data analysis and pattern recognition.\n\n**Supervised Learning:**\nIn supervised learning, the algorithm is trained on labeled data where each input has an associated output (target variable). The goal is to learn a mapping from inputs to outputs that can be used to make predictions or classifications. This involves using statistical techniques such as regression, classification, clustering, or dimensionality reduction to identify patterns in the data. Supervised learning"
+    },
+    {
+        "prompt": "Write a Python function to check whether a number is prime.",
+        "answer": "Certainly! Here's a Python function that checks if a given number is prime:\n\n```python\ndef is_prime(n):\n    \"\"\"\n    Check if the given number n is prime.\n    \n    Parameters:\n    n (int): The number to be checked for primality.\n    \n    Returns:\n    bool: True if n is prime, False otherwise.\n    \"\"\"\n    # 0 and 1 are not primes\n    if n <= 1:\n        return False\n    \n    # 2 is the"
+    },
+    {
+        "prompt": "What is the difference between a Python list and a tuple?",
+        "answer": "In Python, both lists and tuples are used to store collections of items, but they have some key differences in terms of their structure and functionality.\n\n1. **List**:\n   - A list is an ordered collection of elements that can be accessed using an index.\n   - Lists are mutable (you can change their contents after creation), which means you can add or remove elements from them.\n   - Lists are defined using square brackets `[]`.\n   - Lists are typically represented as strings with commas separating"
+    },
+    {
+        "prompt": "A shop gives a 20% discount on an item priced at 1500 rupees. What is the final price?",
+        "answer": "To calculate the final price after applying a 20% discount to an item priced at 1500 rupees, follow these steps:\n\n1. Calculate the amount of the discount:\n   Discount = 20% of 1500 rupees\n   Discount = 0.20 * 1500 rupees\n   Discount = 300 rupees\n\n2. Subtract the discount from the original price:\n   Final Price = Original Price - Discount"
+    },
+    {
+        "prompt": "Explain overfitting in machine learning and how to prevent it.",
+        "answer": "Overfitting is a common issue in machine learning where the model becomes too complex and starts to fit the training data too closely, leading to poor generalization performance on new, unseen data.\n\n### What Is Overfitting?\nOverfitting occurs when a machine learning model learns the noise in the training data rather than the underlying patterns or relationships within that data. This results in the model performing well on the training set but poorly on new, unseen data. The term \"overfitting\" comes from"
+    },
+    {
+        "prompt": "What is the purpose of an API in software development?",
+        "answer": "An API (Application Programming Interface) serves as a bridge between different applications or systems that need to communicate with each other. Its primary purpose is to enable developers to write code that can interact with these APIs without having to know the specific details about how they work.\n\nHere are some key purposes of APIs:\n\n1. **Interoperability**: APIs allow different systems and applications to exchange data and functionality seamlessly. This enables them to share information and resources across various platforms and environments.\n\n2. **Scalability"
+    },
+    {
+        "prompt": "Summarize the importance of data preprocessing in machine learning.",
+        "answer": "Data preprocessing is crucial for several reasons in machine learning:\n\n1. Data Cleaning: This involves removing or correcting errors and inconsistencies in the raw data to ensure that it can be used effectively in the model.\n\n2. Feature Engineering: This step involves transforming raw data into meaningful features that can be used as input to the model. It helps in capturing relevant information from the raw data.\n\n3. Data Normalization: This process ensures that all variables have similar scales, which is essential for many machine learning algorithms."
+    },
+    {
+        "prompt": "Explain how a neural network learns from training data.",
+        "answer": "A neural network is trained through an iterative process of backpropagation and optimization. Here's a step-by-step explanation of how this learning process works:\n\n1. **Data Preparation**: The first step in the training process involves preparing the input data for the neural network. This typically includes normalizing or scaling the features to ensure that they have similar scales.\n\n2. **Model Definition**: Next, the model definition phase begins. This involves defining the architecture of the neural network, including its layers (input layer"
+    }
+]
